@@ -50,7 +50,7 @@ padding: 0px;
   margin-top: 0;
    margin-bottom: 50px;
    
-   font-weight: 36px;
+   font-size: 36px;
    line-height: 1.17;
    text-align: center;
    letter-spacing: 0.03em;
@@ -84,7 +84,7 @@ margin: 0;
 /*--Шапка--*/
 
 .page-heder {
- border:1px solid #ececec;  
+ border-bottom:1px solid rgba(236, 236, 236, 1);  
 background-color:var(--three-text-color);
 }
 .main-nav {
@@ -175,18 +175,19 @@ padding-top: 200px;
 padding-bottom: 200px;
 padding-left: 15px;
 padding-right: 15px;
-
-background:var(--secondary-fount-color);
 text-align: center;
+background:var(--secondary-fount-color);
+
 
 }
 .hero-title {
+margin-left: auto;
+margin-right: auto;
 margin-top: 0;
 margin-bottom: 40px;
-padding-left: 452px;
-padding-right: 452px;
-
+width: 696px;
 text-transform: uppercase;
+
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -205,6 +206,7 @@ border-radius: 4px;
 min-width: 216px;
 cursor: pointer; 
 font-family: inherit; 
+font-weight: 700;
 font-size: 16px;
 letter-spacing: 0.06em;
 border: 1px solid transparent;
@@ -342,7 +344,7 @@ margin-left: 30px;
 .button {
 display: flex;
 justify-content: center;
-margin-bottom: 34px;  
+margin-bottom: 50px;  
 }
 
 .button .item + .item {
